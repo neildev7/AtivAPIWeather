@@ -159,6 +159,3 @@ Em um sistema publicado, o ideal é não deixar a chave da API exposta diretamen
 
 O objetivo do projeto é praticar o consumo de APIs utilizando JavaScript, trabalhar com requisições HTTP e manipulação de dados JSON, além de integrar informações de clima com um mapa interativo.
 
-## Autor
-
-Projeto desenvolvido para atividade acadêmica.
