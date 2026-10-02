@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Consulta do Tempo</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<main>
+
+    <h1>Consulta do Tempo</h1>
+
+    <div class="pesquisa">
+        <input
+            type="text"
+            id="cidade"
+            placeholder="Digite uma cidade"
+        >
+
+        <button id="buscar">Consultar</button>
+    </div>
+
+    <p id="mensagem"></p>
+
+    <div class="conteudo">
+
+        <section id="resultado">
+
+            <div class="principal">
+
+                <div>
+                    <h2 id="nomeCidade">-</h2>
+                    <p id="pais">-</p>
+                </div>
+
+                <img id="icone" src="" alt="">
+
+                <div>
+                    <strong id="temperatura">-</strong>
+                    <p id="descricao">-</p>
+                </div>
+
+            </div>
+
+            <div class="informacoes">
+
+                <div>
+                    <span>Sensação térmica</span>
+                    <strong id="sensacao">-</strong>
+                </div>
+
+                <div>
+                    <span>Temperatura mínima</span>
+                    <strong id="minima">-</strong>
+                </div>
+
+                <div>
+                    <span>Temperatura máxima</span>
+                    <strong id="maxima">-</strong>
+                </div>
+
+                <div>
+                    <span>Umidade</span>
+                    <strong id="umidade">-</strong>
+                </div>
+
+                <div>
+                    <span>Vento</span>
+                    <strong id="vento">-</strong>
+                </div>
+
+                <div>
+                    <span>Pressão</span>
+                    <strong id="pressao">-</strong>
+                </div>
+
+                <div>
+                    <span>Visibilidade</span>
+                    <strong id="visibilidade">-</strong>
+                </div>
+
+                <div>
+                    <span>Nuvens</span>
+                    <strong id="nuvens">-</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mapa-container">
+            <h2>Localização</h2>
+            <div id="mapa"></div>
+        </section>
+
+    </div>
+
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
